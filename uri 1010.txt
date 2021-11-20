@@ -1,0 +1,19 @@
+a,b,c= input().split(" ")
+
+
+d,e,f= input().split(" ")
+
+b = int(b)
+c= float(c)
+
+e = int(e)
+f = float(f)
+
+p5 =  b*c
+
+
+p6 = e*f
+
+
+p7 =p5+p6
+print("VALOR A PAGAR: R$ %0.2f" %p7)
